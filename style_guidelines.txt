@@ -1,1 +1,46 @@
-tbd
+Overall look and feel of LockdIn
+================================
+
+here
+
+Colors
+======
+
+here
+
+Layout and spacing
+==================
+
+here
+
+Typography
+==========
+
+font?
+
+Buttons
+=======
+
+what will it look like
+
+Icons
+=====
+
+LockdIn logo will be top right on every page other than the homepage, where it will be centered to the top
+
+Interactivity
+=============
+
+here
+
+Accessibility
+=============
+
+here
+
+Code Standards
+==============
+
+here
+
+will be done by Ryan 
