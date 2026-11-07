@@ -49,5 +49,3 @@ Code Standards
 ==============
 
 All colors, fonts, and spacing will be set as CSS variables in :root. Hex codes will not be hardcoded, we will not use inline styles, but we will add comments throughout to maintain clarity and readability. 
-
-make this website with the following html files as a base and no need to put the images yet, just leave an empty space for them:
