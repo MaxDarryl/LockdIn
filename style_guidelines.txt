@@ -1,46 +1,53 @@
 Overall look and feel of LockdIn
 ================================
 
-here
+LockdIn will have a simple, modern, and academic aesthetic that immediately establishes trust and approachability for students. The design will be minimalist with whitespace (slightly yellow) to prevent visual clutter and ensure that the images and text are what captivate the user's attention rather than the background. The only exception is the pricing page which has a faded/blurry image related to school.
 
 Colors
 ======
 
-here
+We want LockdIn to to reflect the professional service that it is using dark blue to give it a royal feel and gold accents to make it feel premium. 
+
+These are our color swatches:
+
+#1B337A (Regal Navy)
+#7E87A2 (Lavender Gray)
+#FFBB09 (Amber Flame)
+#FFCF53 (Golden Pollen)
+#FFFDE3 (Light Yellow)
 
 Layout and spacing
 ==================
 
-here
+The website uses a fully adaptable and responsive structure that resizes the page on all devices. The header stays fixed as users move down each page to keep the home button (the logo, 8/12) and menu easily accessible at any point. 
 
 Typography
 ==========
 
-font?
+We want the font to reflect simplicity, so we use Google Sans Flex to ensure that the users can read the text on any device. Headings use the same font, but bold to establish a clear visual order.
 
 Buttons
 =======
 
-what will it look like
+The buttons on the website use modern rounded edges. The text inside will be lavender gray with a light gold color filling the rest of the space. When the user hovers over the button, the text will turn the same color as the header while the button itself will have a flat gold color filling it. The menu will also be like this (the 3 lines will be blue and the rest will be gold and change when hovering). 
 
 Icons
 =====
 
-LockdIn logo will be top right on every page other than the homepage, where it will be centered to the top
+LockdIn logo will be top right on every page other than the homepage, where it will be centered to the top. A menu icon is in the top left corner across all pages. Any additional UI elements or subject representations will use a simple aesthetic with consistent stroke widths to match the modern feel of the typography.
 
 Interactivity
 =============
 
-here
-
+Hovering over buttons will trigger a smooth color transition to indicate that it is clickable. The hamburger menu will also expand smoothly once clicked to reveal the other pages.
 Accessibility
 =============
 
-here
+Images such as partners, statistical charts, and headshots will have alt tags for screen reader support.
 
 Code Standards
 ==============
 
-here
+All colors, fonts, and spacing will be set as CSS variables in :root. Hex codes will not be hardcoded, we will not use inline styles, but we will add comments throughout to maintain clarity and readability. 
 
-will be done by Ryan 
+make this website with the following html files as a base and no need to put the images yet, just leave an empty space for them:
