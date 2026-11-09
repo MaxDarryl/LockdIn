@@ -1,7 +1,7 @@
 Overall look and feel of LockdIn
 ================================
 
-LockdIn will have a simple, modern, and academic aesthetic that immediately establishes trust and approachability for students. The design will be minimalist with whitespace (slightly yellow) to prevent visual clutter and ensure that the images and text are what captivate the user's attention rather than the background. The only exception is the pricing page which has a faded/blurry image related to school.
+LockdIn will have a simple, modern, and academic aesthetic that immediately establishes trust and approachability for students. The design will be minimalist with whitespace (slightly yellow) to prevent visual clutter and ensure that the images and text are what captivate the user's attention rather than the background.
 
 Colors
 ======
@@ -34,7 +34,7 @@ The buttons on the website use modern rounded edges. The text inside will be lav
 Icons
 =====
 
-LockdIn logo will be top right on every page other than the homepage, where it will be centered to the top. A menu icon is in the top left corner across all pages. Any additional UI elements or subject representations will use a simple aesthetic with consistent stroke widths to match the modern feel of the typography.
+The LockdIn logo is centered at the top of every page and links back to the homepage. A menu icon is in the top left corner across all pages. Any additional UI elements or subject representations will use a simple aesthetic with consistent stroke widths to match the modern feel of the typography.
 
 Interactivity
 =============
@@ -48,4 +48,4 @@ Images such as partners, statistical charts, and headshots will have alt tags fo
 Code Standards
 ==============
 
-All colors, fonts, and spacing will be set as CSS variables in :root. Hex codes will not be hardcoded, we will not use inline styles, but we will add comments throughout to maintain clarity and readability. 
+All colors, fonts, and spacing will be set as CSS variables in :root. Hex codes will not be hardcoded, we will not use inline styles, and each page has its own CSS and JavaScript file so the code stays short and easy to read. 
