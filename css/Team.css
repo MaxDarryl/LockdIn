@@ -1,1 +1,85 @@
+.Member
+{
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 0 2rem;
+    margin-bottom: 2rem;
+}
 
+.Member > img
+{
+    grid-row: 1 / span 3;
+}
+
+.Member h2
+{
+    margin: 0;
+    color: var(--navy);
+}
+
+.Contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-self: start;
+}
+
+.Contact a
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3rem 0.9rem 0.3rem 0.35rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.Contact a:hover
+{
+    border-color: var(--navy);
+}
+
+.Icon
+{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.Member:nth-of-type(even)
+{
+    grid-template-columns: 1fr 200px;
+    text-align: right;
+}
+
+.Member:nth-of-type(even) > img
+{
+    grid-column: 2;
+}
+
+.Member:nth-of-type(even) > :not(img)
+{
+    grid-column: 1;
+}
+
+.Member:nth-of-type(even) .Contact
+{
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px)
+{
+    .Member:nth-of-type(even)
+    {
+        text-align: left;
+    }
+
+    .Member:nth-of-type(even) .Contact
+    {
+        justify-content: flex-start;
+    }
+}
