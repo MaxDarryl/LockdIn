@@ -5,64 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="LockdIn is a website that can analyze your personality, matches you with correct tutor and help you with all of your courses.Besides that LockdIn also has AI Generated question and exam to help you practice more">
     <title>LockdIn - Features</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/features.css">
+    <script src="js/menu.js" defer></script>
+    <script src="js/features.js" defer></script>
 </head>
 <body>
     <header>
         <nav>Menu
             <ul>
-                <li>
-                    <a href="homepage.html">Home</a>
-                </li>
-                <li>
-                    <a href="pricing.html">Pricing</a>
-                </li>
-                <li>
-                    <a href="team.html">Team</a>
-                </li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="team.html">Team</a></li>
             </ul>
         </nav>
-        <a href="homepage.html">
-            <img src="images/logo.png" alt="LockdIn Logo">
-            <h1>LockdIn</h1>
+        <a href="home.html">
+            <img src="images/logo.svg" alt="LockdIn Logo">
         </a>
     </header>
     <main>
-        <section id="Tutoring">
+        <section id="Tutoring" class="Split">
             <h2>What we offer</h2>
-            <p>LockdIn matches you with a tutor who fits the way you learn. Our tutors are university students who did very well in the courses they teach, so they know the material and the exams.</p>
-            <p>Besides personalized tutoring, you also get study notes, past exams with their correction keys and AI-powered practice questions.</p>
-            <p>We offer tutoring in:</p>
+            <p>Stuck on a course? LockdIn pairs you with a tutor who fits the way you learn, not just what you study. Our tutors are top students who already passed the same courses you are taking, so they know where students get stuck and what the exam will ask.</p>
+            <p>On top of one-on-one sessions, you get study notes, past exams with full solutions and AI-generated practice questions built around your courses.</p>
+            <p>From high school to university, we cover any course our tutors have mastered, including:</p>
             <ul>
-                <li>Math</li>
-                <li>Physics</li>
-                <li>Chemistry</li>
+                <li>Math and statistics</li>
+                <li>Sciences: physics, chemistry and biology</li>
+                <li>Programming and engineering</li>
+                <li>Business and economics</li>
+                <li>Languages and writing</li>
             </ul>
+            <p>Don't see your course? Tell us and we will find a tutor for it.</p>
             <img src="images/subjects.jpg" alt="Notes from high school and university courses" width="400">
         </section>
-        <section id="Partners">
+        <section id="Partners" class="Split">
             <h2>Our partners and how we operate</h2>
-            <img src="images/partners.jpg" alt="Our partners" width="400">
+            <img src="images/partners.png" alt="Logos of partner universities: uOttawa, Carleton, McGill, Toronto, Waterloo, Queen's, Montréal and Laval" width="400">
             <p>We work with high schools, student associations and libraries to reach the students who need help the most.</p>
             <p>Every new student fills out a short questionnaire. LockdIn uses the answers to match them with the right tutor, then they book their sessions online or in person.</p>
             <p>After each session, the student rates the tutor so we can keep the quality of our tutoring high.</p>
         </section>
-        <section id="Statistics">
-            <h2>User statistics and ratings</h2>
-            <ul>
-                <li>More than 500 students helped</li>
-                <li>4.8/5 average tutor rating</li>
-                <li>3 out of 4 students raised their grade after one month</li>
-                <li>Over 1000 AI practice questions available</li>
+        <section id="Statistics" class="Split">
+            <h2>Our goals for our first year</h2>
+            <ul class="Stats">
+                <li><strong>500+</strong> students helped</li>
+                <li><strong>4.8/5</strong> average tutor rating</li>
+                <li><strong>3 in 4</strong> students raise their grade in one month</li>
+                <li><strong>1000+</strong> AI practice questions</li>
             </ul>
             <figure>
-                <svg width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Pie chart: 75% of students raised their grade">
-                    <circle cx="110" cy="110" r="100" fill="gray" stroke="black" stroke-width="3"/>
-                    <path d="M110,110 L110,10 A100,100 0 0,1 210,110 Z" fill="white" stroke="black" stroke-width="3"/>
+                <svg width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Pie chart: our goal is for 75% of students to raise their grade">
+                    <circle cx="110" cy="110" r="100"/>
+                    <path d="M110,110 L110,10 A100,100 0 1,1 10,110 Z"/>
+                    <text class="Big" x="148" y="160">75%</text>
+                    <text class="Small" x="72" y="82">25%</text>
                 </svg>
-                <figcaption>75% of our students raised their grade after one month of tutoring</figcaption>
+                <ul class="Legend">
+                    <li><span class="Up"></span>Raise their grade</li>
+                    <li><span class="Same"></span>Still working on it</li>
+                </ul>
+                <figcaption>Our goal: 75% of our students raise their grade after one month of tutoring</figcaption>
             </figure>
         </section>
-        <section id="CheckOut">
+        <section id="CheckOut" class="Next">
             <p>Check out:
             <a href="pricing.html">Pricing</a></p>
         </section>

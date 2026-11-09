@@ -1,0 +1,135 @@
+#Tutoring img,
+#Partners img
+{
+    grid-row: 1 / span 6;
+    width: 100%;
+    align-self: center;
+}
+
+#Tutoring img
+{
+    grid-column: 2;
+}
+
+#Partners img
+{
+    grid-column: 1;
+}
+
+#Partners > :not(img)
+{
+    grid-column: 2;
+}
+
+h2
+{
+    text-transform: uppercase;
+}
+
+#Tutoring,
+#Partners
+{
+    align-items: start;
+}
+
+#Statistics
+{
+    align-items: center;
+}
+
+#Statistics h2
+{
+    grid-column: 1 / -1;
+}
+
+.Stats
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Stats li
+{
+    padding: 1.2rem;
+    border: 1px solid var(--gray);
+    border-radius: var(--radius);
+}
+
+.Stats strong
+{
+    display: block;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--navy);
+}
+
+#Statistics figure
+{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+    text-align: center;
+}
+
+#Statistics svg circle
+{
+    fill: var(--gray);
+}
+
+#Statistics svg path
+{
+    fill: var(--amber);
+    stroke: var(--white);
+    stroke-width: 3;
+}
+
+#Statistics svg text
+{
+    font-weight: 700;
+    text-anchor: middle;
+}
+
+.Big
+{
+    font-size: 30px;
+    fill: var(--navy);
+}
+
+.Small
+{
+    font-size: 20px;
+    fill: var(--white);
+}
+
+.Legend
+{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.Legend span
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 0.4rem;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.Up
+{
+    background: var(--amber);
+}
+
+.Same
+{
+    background: var(--gray);
+}
