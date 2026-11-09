@@ -1,0 +1,92 @@
+main h1
+{
+    margin-top: 0;
+}
+
+table
+{
+    width: 100%;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+th,
+td
+{
+    padding: 0.6rem var(--space);
+    border: 1px solid var(--gray);
+}
+
+th
+{
+    background: var(--navy);
+    color: var(--cream);
+}
+
+th:first-child
+{
+    color: transparent;
+}
+
+tr:nth-child(even) td
+{
+    background: var(--cream);
+}
+
+.yes
+{
+    color: var(--yes);
+    font-weight: 700;
+}
+
+.no
+{
+    color: var(--no);
+    font-weight: 700;
+}
+
+#FAQ
+{
+    margin-bottom: 2rem;
+}
+
+#FAQ details
+{
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--line);
+}
+
+#FAQ summary
+{
+    display: flex;
+    justify-content: space-between;
+    color: var(--navy);
+    font-weight: 700;
+    list-style: none;
+    cursor: pointer;
+}
+
+#FAQ summary::-webkit-details-marker
+{
+    display: none;
+}
+
+#FAQ summary::after
+{
+    content: "+";
+    color: var(--amber);
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+#FAQ details[open] summary::after
+{
+    content: "\2212";
+}
+
+#FAQ details p
+{
+    margin: 0.6rem 0 0;
+}
