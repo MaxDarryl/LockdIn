@@ -1,0 +1,55 @@
+#Intro
+{
+    align-items: center;
+}
+
+#Intro img
+{
+    grid-column: 2;
+    grid-row: 1 / span 3;
+}
+
+#Steps ol
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 0 2rem;
+    padding: 0;
+    list-style: none;
+    counter-reset: step;
+}
+
+#Steps li
+{
+    padding-top: 1rem;
+    border-top: 3px solid var(--gold);
+    counter-increment: step;
+}
+
+#Steps li::before
+{
+    content: counter(step);
+    color: var(--navy);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#Steps h3
+{
+    margin: 0.3rem 0;
+    color: var(--navy);
+}
+
+#Steps p
+{
+    margin: 0;
+}
+
+@media (max-width: 768px)
+{
+    #Steps ol
+    {
+        grid-template-columns: 1fr;
+    }
+}
